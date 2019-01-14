@@ -31,7 +31,7 @@ run;
 /********* multiple comparison for the different pairs of pain level ***********/
 
 
-* Scheffe’s method;
+* Scheffeâ€™s method;
 
 proc glm data = PainRelief;
 class PainLevel;
