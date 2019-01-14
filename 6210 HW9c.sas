@@ -5,7 +5,7 @@ ods rtf file='HW9C.doc';
 /******************   HW9C  *********************/
 
 /*
-Use the Cox’s regression to analyze this data set with a time-dependent covariate
+Use the Coxâ€™s regression to analyze this data set with a time-dependent covariate
 Both X and Z included
 Report hazard ratios and their confidence limits
 */
@@ -16,7 +16,7 @@ run;
 
 
 /*
-Use the Cox’s regression to perform a stratified analysis (based on X)
+Use the Coxâ€™s regression to perform a stratified analysis (based on X)
 Z is the time-dependent covariate
 Report the hazard ratio and its confidence limits
 */
