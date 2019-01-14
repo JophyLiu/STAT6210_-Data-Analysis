@@ -8,7 +8,7 @@ ods rtf file='HW9B.doc';
 
 
 /*
-Run the Cox’s regression (proportional hazard model) analysis with both X and Z included
+Run the Coxâ€™s regression (proportional hazard model) analysis with both X and Z included
 */
 
 proc phreg data=HW9B;
