@@ -51,7 +51,7 @@ run;
 
 
 
-/************ “PostTreatment?as response and “Drug?as factor *************/
+/************ â€œPostTreatment?as response and â€œDrug?as factor *************/
 
 *One-way ANOVA (parametric);
 
@@ -83,7 +83,7 @@ run;
 
 
 
-/************ “PreTreatment?as response and “Drug?as factor *************/
+/************ â€œPreTreatment?as response and â€œDrug?as factor *************/
 
 *One-way ANOVA (parametric);
 
@@ -116,7 +116,7 @@ run;
 
 
 
-/************ overall correlation between the variables “PreTreatment?and “PostTreatment?*************/
+/************ overall correlation between the variables â€œPreTreatment?and â€œPostTreatment?*************/
 
 ods graphics on;
 proc corr data=drugtest pearson spearman plots=scatter(alpha=0.2 0.3 ) plots=matrix(histogram);
@@ -129,7 +129,7 @@ ods graphics off;
 
 
 
-/************ within-group correlation between the variables “PreTreatment?and “PostTreatment?*************/
+/************ within-group correlation between the variables â€œPreTreatment?and â€œPostTreatment?*************/
 
 data drugtest1;
 set drugtest;
